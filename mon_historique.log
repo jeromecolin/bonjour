@@ -1,0 +1,66 @@
+Last login: Thu Jul  4 09:09:40 on console
+➜  ~ ls
+Applications            Library                 Public
+Desktop                 Movies                  files
+Documents               Music                   iCloud Drive (archive)
+Downloads               Pictures                work
+➜  ~ dc documents
+➜  ~ ls
+Applications            Library                 Public
+Desktop                 Movies                  files
+Documents               Music                   iCloud Drive (archive)
+Downloads               Pictures                work
+➜  ~ cd documents
+➜  documents ls 
+BTZ POEC Contrat de formation professionnelle dev.pdf
+Sauvegarde Jerome
+clmystery-master
+➜  documents cd clmystery-master 
+➜  clmystery-master cat hint5
+"Interview" the two possible witnesses by reading the correct line from the streets they live on:
+
+	head -n 173 streets/Mattapan_Street | tail -n 1
+
+This will give you just line 173 of Mattapan street, because it will take first 173 lines, and then take
+the last line from those.%                                                      ➜  clmystery-master head -n 173 streets/Mattapan_Street | tail -n 1
+head: streets/Mattapan_Street: No such file or directory
+➜  clmystery-master cd mystery
+➜  mystery head -n 173 streets/Mattapan_Street | tail -n 1
+SEE INTERVIEW #9437737
+➜  mystery grep "INTERVIEW #9437737"
+^C
+➜  mystery cd interviews
+➜  interviews grep "#9437737"
+^C
+➜  interviews cat interview-9437737 
+Doesn't appear to be the witness from the cafe, who is female.%                 ➜  interviews 
+➜  interviews 
+➜  interviews cd ..
+➜  mystery cd ..
+➜  clmystery-master cd mystery
+➜  mystery grep "Honda" vehicles
+Make: Honda
+Make: Honda
+Make: Honda
+Make: Honda
+Make: Honda
+Make: Honda
+Make: Honda
+Make: Honda
+Make: Honda
+➜  mystery cd streets
+➜  streets grep "Jeremy Bowers" streets
+grep: streets: No such file or directory
+➜  streets cd ..
+➜  mystery cd membership
+cd: no such file or directory: membership
+➜  mystery cd memberships
+➜  memberships grep "Jeremy Bowers" AAA
+Jeremy Bowers
+➜  memberships grep "Jeremy Bowers" 
+cd ..
+^C
+➜  memberships echo Jeremy Bowers
+Jeremy Bowers
+➜  memberships history > mon_historique.log
+➜  memberships 
